@@ -3,16 +3,35 @@ This is training project taken from LinkedIn course [Swift Code Challenges](http
 
 Challenges
 
-1. Print the first n odd numbers
-2. Swap values
-3. Filter prime numbers
-4. Count days between two dates
-5. Calculate sum(n)
-6. Rock, paper, scissors
-7. Convert dictionary to JSON
-8. Count vowels and consonants
-9. Find the missing number
-10. Generate random passwords
-11. Check palindromes
-12. Storing strings securely
+1. Print the first n odd numbers (★☆☆☆)
+
+```swift
+stride(from: 1, to: n + 1, by: 2).forEach { print($0) }
+```
+
+2. Swap values (★☆☆☆)
+
+```swift
+func swap<T: Equatable>(_ x: inout T, _ y: inout T) {
+    guard x != y else { return }
+    (x, y) = (y, x)
+}
+```
+
+3. Filter prime numbers (★☆☆☆)
+
+```
+```
+
+
+
+1. Count days between two dates
+2. Calculate sum(n)
+3. Rock, paper, scissors
+4. Convert dictionary to JSON
+5. Count vowels and consonants
+6. Find the missing number
+7. Generate random passwords
+8. Check palindromes
+9. Storing strings securely
 
