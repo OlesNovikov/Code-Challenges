@@ -43,12 +43,22 @@ Ways of solving:
 - JSONEncoder
 - JSONSerialization
 
-8. **Count vowels and consonants**
+ ```swift
+ extension Dictionary {
+     func toJSONString() -> String? {
+         guard let jsonData = try? JSONSerialization.data(withJSONObject: self, options: [.prettyPrinted]) else {
+             return nil
+         }
+         return String(data: jsonData, encoding: .utf8)
+     }
+ }
+ ```
 
+8. **Count vowels and consonants** (★★☆☆)
 
+9. **Find the missing number**
 
-1. **Find the missing number**
-2. **Generate random passwords**
-3. **Check palindromes**
-4. **Storing strings securely**
+1. **Generate random passwords**
+2. **Check palindromes**
+3. **Storing strings securely**
 
