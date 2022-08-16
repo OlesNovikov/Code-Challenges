@@ -36,10 +36,19 @@ func sum(n: UInt) -> UInt {
 
 6. **Rock, paper, scissors** (★★★☆)
 
-1. **Convert dictionary to JSON**
-2. **Count vowels and consonants**
-3. **Find the missing number**
-4. **Generate random passwords**
-5. **Check palindromes**
-6. **Storing strings securely**
+7. **Convert dictionary to JSON** (★★☆☆)
+
+Ways of solving:
+
+- JSONEncoder
+- JSONSerialization
+
+8. **Count vowels and consonants**
+
+
+
+1. **Find the missing number**
+2. **Generate random passwords**
+3. **Check palindromes**
+4. **Storing strings securely**
 
