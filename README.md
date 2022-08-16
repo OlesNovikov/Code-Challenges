@@ -34,7 +34,7 @@ func sum(n: UInt) -> UInt {
 }
 ```
 
-6. **Rock, paper, scissors**
+6. **Rock, paper, scissors** (★★★☆)
 
 1. **Convert dictionary to JSON**
 2. **Count vowels and consonants**
