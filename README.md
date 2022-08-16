@@ -56,9 +56,12 @@ Ways of solving:
 
 8. **Count vowels and consonants** (★★☆☆)
 
-9. **Find the missing number**
+9. **Find the missing number** (★★★☆)
 
-1. **Generate random passwords**
-2. **Check palindromes**
-3. **Storing strings securely**
+Return the smallest positive number. [-19, -1, 1, 5, 121], output: 2
+
+10. **Generate random passwords**
+
+1. **Check palindromes**
+2. **Storing strings securely**
 
