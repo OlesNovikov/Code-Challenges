@@ -73,7 +73,13 @@ func generatePassword(_ length: Int) -> String {
 }
 ```
 
-11. **Check palindromes**
+11. **Check palindromes** (★★★☆)
 
-1. **Storing strings securely**
+Ways of solving:
 
+- Reverse and compare with source string
+- Make 2 pointers - left and right. Left pointer starts to iterate from left, Right pointer starts to iterate from right. Compare until characters same.
+
+12. **Storing strings securely** (★★★★)
+
+Store using `Security` framework
