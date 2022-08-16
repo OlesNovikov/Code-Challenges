@@ -20,18 +20,17 @@ func swap<T: Equatable>(_ x: inout T, _ y: inout T) {
 
 3. Filter prime numbers (★☆☆☆)
 
-```
-```
+4. Count days between two dates (★★☆☆)
 
+First situation: 1 day = 24 hours; Second: 1 day = 1 midnight
 
+5. Calculate sum(n)
 
-1. Count days between two dates
-2. Calculate sum(n)
-3. Rock, paper, scissors
-4. Convert dictionary to JSON
-5. Count vowels and consonants
-6. Find the missing number
-7. Generate random passwords
-8. Check palindromes
-9. Storing strings securely
+1. Rock, paper, scissors
+2. Convert dictionary to JSON
+3. Count vowels and consonants
+4. Find the missing number
+5. Generate random passwords
+6. Check palindromes
+7. Storing strings securely
 
