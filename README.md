@@ -60,8 +60,20 @@ Ways of solving:
 
 Return the smallest positive number. [-19, -1, 1, 5, 121], output: 2
 
-10. **Generate random passwords**
+10. **Generate random passwords** (★★★☆)
 
-1. **Check palindromes**
-2. **Storing strings securely**
+```swift
+func generatePassword(_ length: Int) -> String {
+    var passwordCharSet = "abcdefghijklmnopqrstuvwxyz"
+    passwordCharSet += passwordCharSet.uppercased()
+    passwordCharSet += "!@#$%^&*()-_=+\""
+    passwordCharSet += "1234567890"
+    
+    return String((0..<length).compactMap{ _ in passwordCharSet.randomElement() })
+}
+```
+
+11. **Check palindromes**
+
+1. **Storing strings securely**
 
